@@ -1,8 +1,14 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+
 export default function App() {
   return (
-    <div>
-      <h1>Food Price Predictor</h1>
-      <p>Helping farmers make good decisions.</p>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
