@@ -1,0 +1,142 @@
+.home {
+    text-align: center;
+}
+
+.hero {
+    padding: 130px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+        url("/images/maize.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 58px;
+}
+
+.hero-button {
+    margin-top: 30px;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+}
+
+.problem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.problem-text {
+    flex: 1;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.explain-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.explain-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.explain-row img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.explain-text {
+  text-align: left;
+  line-height: 1.7;
+}
+
+.problem-images {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.problem-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.why {
+    padding: 90px 20px;
+}
+
+.why-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why-item {
+    text-align: left;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 0.8s forwards;
+}
+
+.why-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.why-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.workflow {
+    padding: 90px 20px;
+}
+
+.workflow-steps {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.workflow-steps div {
+    max-width: 220px;
+}
+
+.workflow-steps span {
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 20px;
+    background: #1e293b;
+}

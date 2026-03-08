@@ -23,11 +23,11 @@ export default function Navbar() {
                 <Link to="/" style={linkStyle}>
                     Home
                 </Link>
-                <Link to="/dashboard" style={linkStyle}>
-                    Dashboard
-                </Link>
                 <Link to="/about" style={linkStyle}>
                     About
+                </Link>
+                <Link to="/dashboard" style={linkStyle}>
+                    Dashboard
                 </Link>
             </div>
         </nav>
