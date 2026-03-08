@@ -4,58 +4,63 @@ export default function About() {
     return (
         <div className="about-container">
 
-            <h1>About Price Sight</h1>
+            <h1 className="about-title">The Story of Price Sight</h1>
 
             <p className="about-intro">
-                Price Sight helps visualize food price volatility across Kenyan counties.
-                By analyzing market price fluctuations, we help households, researchers,
-                and policymakers understand where food prices are unstable.
+                Imagine a family in a rural Kenyan county trying to plan meals for the month.
+                One week, maize prices skyrocket because of a dry spell; the next, beans prices fall
+                sharply after a bumper harvest.
+                Traders struggle to stock markets efficiently, and policymakers scramble to ensure food
+                security.
+                Price Sight was born from this challenge: a tool that brings clarity to the chaos,
+                helping families, traders, and organizations understand where staple food prices
+                fluctuate the most and what might come next.
             </p>
 
-            <div className="info-section">
+            <div className="mission-section">
 
-                <div className="info-card">
-                    <h3>📊 Data Driven</h3>
+                <div className="mission-card card-1">
+                    <h3>Our Mission</h3>
                     <p>
-                        We analyze historical food price data to detect volatility
-                        patterns across counties and markets.
+                        Make food price data accessible and actionable for everyone
+                        starting from families to organizations.
                     </p>
                 </div>
 
-                <div className="info-card">
-                    <h3>🌍 Local Insights</h3>
+                <div className="mission-card card-2">
+                    <h3>What We Analyze</h3>
                     <p>
-                        Price Sight focuses on regional differences so communities
-                        can understand their local food markets.
+                        Maize, beans, rice, and other staples across 47 counties,
+                        highlighting where prices fluctuate the most.
                     </p>
                 </div>
 
-                <div className="info-card">
-                    <h3>📈 Smart Planning</h3>
+                <div className="mission-card card-3">
+                    <h3>Why It Matters</h3>
                     <p>
-                        Policymakers and NGOs can use these insights to plan
-                        interventions and food programs.
+                        Helping households budget, NGOs plan interventions, and
+                        policymakers make data-driven decisions.
                     </p>
                 </div>
 
             </div>
 
-            <h2 className="section-title">Food Market Examples</h2>
+            <h2 className="section-title">Impact Highlights</h2>
 
-            <div className="image-grid">
-                <div className="image-card">
-                    <img src="/images/maize.jpg" alt="Maize" />
-                    <p>Tracking maize price volatility</p>
+            <div className="impact-grid">
+                <div className="impact-card">
+                    <h3>47 Counties</h3>
+                    <p>Data tracked across all Kenyan counties.</p>
                 </div>
 
-                <div className="image-card">
-                    <img src="/images/beans.jpg" alt="Beans" />
-                    <p>Bean market trends</p>
+                <div className="impact-card">
+                    <h3>2 Staple Foods</h3>
+                    <p>Maize and beans monitored for volatility.</p>
                 </div>
 
-                <div className="image-card">
-                    <img src="/images/market2.jpg" alt="Market" />
-                    <p>Local market monitoring</p>
+                <div className="impact-card">
+                    <h3>Predictive Insights</h3>
+                    <p>Forecasts for the next month's prices in key counties.</p>
                 </div>
             </div>
 
