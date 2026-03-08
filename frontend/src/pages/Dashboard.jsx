@@ -93,6 +93,29 @@ export default function Dashboard() {
 
                 </table>
             </div>
+            <div className="stats-grid">
+
+                <div className="stat-card">
+                    <h3>Highest Volatility</h3>
+                    <p>Turkana</p>
+                </div>
+
+                <div className="stat-card">
+                    <h3>Avg Maize Price</h3>
+                    <p>64 KES/kg</p>
+                </div>
+
+                <div className="stat-card">
+                    <h3>Avg Beans Price</h3>
+                    <p>110 KES/kg</p>
+                </div>
+
+                <div className="stat-card">
+                    <h3>Counties Tracked</h3>
+                    <p>47</p>
+                </div>
+
+            </div>
 
         </div>
     );
