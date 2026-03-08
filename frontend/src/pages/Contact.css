@@ -1,0 +1,115 @@
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-intro {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.contact-form-card {
+    background: rgba(255,255,255,0.06);
+    padding: 40px;
+    border-radius: 14px;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    margin-bottom: 40px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+.contact-form-card label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+.contact-form-card input,
+.contact-form-card textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.08);
+    color: white;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+
+.contact-form-card input::placeholder,
+.contact-form-card textarea::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+
+.contact-form-card input:focus,
+.contact-form-card textarea:focus {
+    outline: none;
+    border: 1px solid #3b82f6;
+    background: rgba(255,255,255,0.12);
+}
+
+.contact-form-card button {
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.contact-form-card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(59,130,246,0.35);
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 25px;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+.social-item img {
+    width: 40px;
+    margin-bottom: 6px;
+}
+
+.social-item p {
+    font-size: 14px;
+}
+
+.social-item:hover {
+    transform: scale(1.15);
+}

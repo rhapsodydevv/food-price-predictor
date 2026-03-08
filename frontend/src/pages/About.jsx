@@ -63,6 +63,7 @@ export default function About() {
                     <p>Forecasts for the next month's prices in key counties.</p>
                 </div>
             </div>
+            
 
         </div>
     );
