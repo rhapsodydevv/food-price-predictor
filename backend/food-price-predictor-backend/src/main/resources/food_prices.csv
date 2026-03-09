@@ -1,0 +1,11 @@
+id,productName,category,region,unit,priceKES,currency,date
+1,maize,legumes,Nairobi,kg,213,KES,14/12/2025
+2,maize,legumes,Mombasa,kg,123,KES,12/12/2025
+3,maize,legumes,Isiolo,kg,5456,KES,12/12/2025
+4,maize,legumes,Machakos,kg,546,KES,12/12/2025
+5,maize,legumes,Turkana,kg,234,KES,12/12/2025
+6,beans,legumes,Nairobi,kg,86,KES,12/12/2025
+7,beans,legumes,Mombasa,kg,3,KES,12/12/2025
+8,beans,legumes,Isiolo,kg,5645,KES,12/12/2025
+9,beans,legumes,Machakos,kg,7567,KES,12/12/2025
+10,beans,legumes,Turkana,kg,5645,KES,12/12/2025
