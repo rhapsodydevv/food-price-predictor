@@ -1,33 +1,56 @@
 .dashboard-container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     padding: 40px;
 }
 
-.card {
-    background: rgba(255, 255, 255, 0.05);
+/* HEADER */
+
+.dashboard-header {
+    margin-bottom: 30px;
+}
+
+.dashboard-header p {
+    opacity: 0.7;
+}
+
+/* FILTERS */
+
+.filters {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.filters select,
+.filters input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.08);
+    color: black;
+}
+
+.filters button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+}
+
+/* COUNTY CARD */
+
+.county-card {
+    background: rgba(255, 255, 255, 0.06);
     padding: 25px;
     border-radius: 12px;
-    margin-bottom: 40px;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    margin-bottom: 35px;
 }
 
-.card h2 {
-    margin-bottom: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table th,
-table td {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
+/* METRIC CARDS */
 
 .stats-grid {
     display: grid;
@@ -40,8 +63,6 @@ table td {
     background: rgba(255, 255, 255, 0.06);
     padding: 20px;
     border-radius: 12px;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
     text-align: center;
     transition: transform 0.2s ease;
 }
@@ -53,10 +74,80 @@ table td {
 .stat-card h3 {
     font-size: 14px;
     opacity: 0.7;
-    margin-bottom: 8px;
 }
 
 .stat-card p {
     font-size: 24px;
     font-weight: 600;
+}
+
+/* CHARTS */
+
+.chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    text-align: left;
+    padding: 12px;
+    opacity: 0.7;
+}
+
+td {
+    padding: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* ALERTS */
+
+.alerts-card {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.alerts-card li {
+    margin-bottom: 8px;
+}
+
+/* INSIGHT */
+
+.insight-card {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.data-source {
+    opacity: 0.6;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.error {
+    color: #ef4444;
+    margin-bottom: 15px;
 }
